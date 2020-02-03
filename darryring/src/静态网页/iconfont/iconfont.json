@@ -1,0 +1,30 @@
+{
+  "id": "1626254",
+  "name": "DR",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7677470",
+      "name": "打叉",
+      "font_class": "dacha",
+      "unicode": "e75b",
+      "unicode_decimal": 59227
+    },
+    {
+      "icon_id": "9094872",
+      "name": "平房信息",
+      "font_class": "pingfangxinxi",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "9301941",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    }
+  ]
+}

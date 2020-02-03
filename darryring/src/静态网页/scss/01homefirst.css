@@ -1,5 +1,187 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
   width: 100%;
   height: 100%;
+}
+
+#home_first {
+  height: 100%;
+  width: 100%;
+  /* 头部 */
+  /* 主要内容区 */
+}
+
+#home_first .header {
+  width: 89.33333vw;
+  height: 11.46667vw;
+  background-color: white;
+  padding: 0 5.33333vw;
+  position: fixed;
+  top: 0;
+}
+
+#home_first .header span {
+  display: block;
+  height: 11.73333vw;
+  line-height: 11.73333vw;
+}
+
+#home_first .header .icon-dacha {
+  width: 5.86667vw;
+  text-align: center;
+  color: #231815;
+  font-size: 5.86667vw;
+  float: left;
+}
+
+#home_first .header .right {
+  float: right;
+}
+
+#home_first .header .right .span2 {
+  width: 53.6vw;
+  float: left;
+  text-align: center;
+  font-size: 4.8vw;
+}
+
+#home_first .header .right .second {
+  float: left;
+  width: 23.2vw;
+  height: 11.73333vw;
+  color: #a57a68;
+}
+
+#home_first .header .right .second span {
+  float: left;
+  text-align: center;
+}
+
+#home_first .header .right .second .span3 {
+  width: 7.46667vw;
+  padding: 0 2.66667vw;
+  font-size: 3.46667vw;
+}
+
+#home_first .header .right .second .icon-gengduo {
+  width: 5.33333vw;
+  height: 11.73333vw;
+  font-size: 5.33333vw;
+}
+
+#home_first .container {
+  margin-top: 11.73333vw;
+}
+
+#home_first .container .page1 img {
+  width: 100%;
+  height: 78.13333vw;
+  /* 消除底下3px的距离 */
+  display: block;
+}
+
+#home_first .container .page2 {
+  background-color: #f4eeee;
+}
+
+#home_first .container .page2 .img1 {
+  width: 100%;
+  height: 6.93333vw;
+  margin-top: 10vw;
+  margin-bottom: 8.33333vw;
+}
+
+#home_first .container .page2 .line {
+  width: 25vw;
+  border-top: 1px solid #000;
+  margin: auto;
+  margin-bottom: 4.53333vw;
+}
+
+#home_first .container .page2 p {
+  width: 100%;
+  height: 36vw;
+  color: #2a0305;
+  text-align: center;
+  margin-bottom: 13.6vw;
+  font-size: 4vw;
+  /* 行文字的间距 */
+  line-height: 6.66667vw;
+}
+
+#home_first .container .page2 p span {
+  color: #b47455;
+}
+
+#home_first .container .page2 .list {
+  width: 92.53333vw;
+  height: 28.8vw;
+  margin-bottom: 11.2vw;
+  margin: auto;
+  margin-bottom: 11.2vw;
+}
+
+#home_first .container .page2 .list li {
+  width: 27.2vw;
+  height: 27.2vw;
+  border: 0.4vw solid white;
+  margin-left: 1.86667vw;
+  float: left;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #e8dfde;
+  font-size: 3.46667vw;
+}
+
+#home_first .container .page2 .list li h5 {
+  width: 27.2vw;
+  height: 9.6vw;
+  line-height: 5.33333vw;
+  margin-top: 4.8vw;
+}
+
+#home_first .container .page2 .list li p {
+  width: 27.2vw;
+  height: 3.2vw;
+  margin-top: 2.93333vw;
+  color: #b47456;
+  font-size: 3.2vw;
+}
+
+#home_first .container .page2 .img2 {
+  width: 100%;
+  height: 37.33333vw;
+}
+
+#home_first .container .page3 {
+  background: radial-gradient(#f3e6dd, #dacdc3);
+  margin-top: 2px;
+}
+
+#home_first .container .page3 img {
+  width: 100%;
+  height: 5.33333vw;
+  margin-top: 13.86667vw;
+  margin-bottom: 5.6vw;
+}
+
+#home_first .container .page3 .line {
+  width: 25vw;
+  border-top: 0.13333vw solid #000;
+  margin: auto;
+}
+
+#home_first .container .page3 p {
+  height: 14.4vw;
+  text-align: center;
+  line-height: 4vw;
+  margin-bottom: 7.2vw;
+  font-size: 4.26667vw;
+  color: #2a0305;
 }
