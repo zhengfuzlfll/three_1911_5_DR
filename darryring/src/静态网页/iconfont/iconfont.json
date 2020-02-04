@@ -25,6 +25,13 @@
       "font_class": "gengduo",
       "unicode": "e67c",
       "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "10678350",
+      "name": "返 回",
+      "font_class": "fanhui",
+      "unicode": "e600",
+      "unicode_decimal": 58880
     }
   ]
 }

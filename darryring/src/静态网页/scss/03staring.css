@@ -1,0 +1,123 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#star {
+  width: 100%;
+}
+
+#star .title-all {
+  width: 100%;
+  border-bottom: 0.13333vw solid #ebedf0;
+}
+
+#star .title-all .title {
+  width: 90.66667vw;
+  height: 10.4vw;
+  margin: auto;
+  text-align: center;
+  line-height: 10.4vw;
+}
+
+#star .title-all .title .left {
+  float: left;
+}
+
+#star .title-all .title .left .icon-fanhui {
+  width: 4.26667vw;
+  height: 10.66667vw;
+  font-size: 4vw;
+}
+
+#star .title-all .title .middle {
+  float: left;
+  width: 60vw;
+  height: 10.66667vw;
+}
+
+#star .title-all .title .right {
+  float: left;
+  width: 24vw;
+  height: 10.66667vw;
+  color: #a57a68;
+}
+
+#star .title-all .title .right .span1 {
+  display: block;
+  float: left;
+  width: 7.46667vw;
+  height: 10.66667vw;
+  padding: 0 2.66667vw;
+  font-size: 3.2vw;
+}
+
+#star .title-all .title .right .icon-gengduo {
+  float: left;
+  width: 5.86667vw;
+  height: 10.66667vw;
+  font-size: 4vw;
+}
+
+#star .container .starNum {
+  width: 100%;
+  height: 25.6vw;
+  margin-top: 8.26667vw;
+  text-align: center;
+}
+
+#star .container .starNum h3 {
+  font-size: 4vw;
+  height: 10.93333vw;
+}
+
+#star .container .starNum h3 span {
+  font-size: 8vw;
+}
+
+#star .container .starNum p {
+  height: 3.73333vw;
+  margin-top: 5.33333vw;
+  font-size: 3.2vw;
+}
+
+#star .container .starNum .line {
+  width: 7.2vw;
+  border-top: 0.13333vw solid #000;
+  margin: 2.66667vw auto;
+}
+
+#star .container .list ul li {
+  width: 88vw;
+  height: 118.93333vw;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 1.33333vw;
+  margin-top: 2.66667vw;
+}
+
+#star .container .list ul li img {
+  width: 88vw;
+  height: 94.66667vw;
+}
+
+#star .container .list ul li h5 {
+  width: 82.66667vw;
+  height: 4.26667vw;
+  padding: 0 2.66667vw;
+  margin-top: 5.33333vw;
+  color: #222;
+  font-size: 3.46667vw;
+  line-height: 4.26667vw;
+}
+
+#star .container .list ul li p {
+  width: 82.66667vw;
+  height: 3.46667vw;
+  padding: 0 2.66667vw;
+  color: #888;
+  line-height: 3.46667vw;
+  font-size: 3.2vw;
+  margin-top: 2.66667vw;
+}
