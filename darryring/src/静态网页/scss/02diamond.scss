@@ -2,9 +2,196 @@ html,
 body {
     width: 100%;
     height: 100%;
+
 }
 
 @function vw($px) {
     @return ($px/750)*100vw;
 }
 
+#diamond {
+
+    /* 头部 */
+    .title {
+        .location {
+            text-align: center;
+            width: 100%;
+            height: vw(80);
+            // background: url(../images/logo2.png) no-repeat;
+            background: #fff url(../images/logo2.png) no-repeat 50%;
+            background-size: auto 72%;
+            position: relative;
+            line-height: vw(80);
+
+            .left {
+                width: vw(128);
+                height: vw(80);
+                position: absolute;
+                left: vw(32);
+                bottom: 0;
+
+                color: #9b745c;
+
+                .icon-pingfangxinxi {
+                    height: vw(80);
+                    font-size: vw(36);
+                    line-height: vw(80);
+                }
+
+                .span2 {
+                    font-size: vw(24);
+                }
+            }
+
+            .right {
+                width: vw(114);
+                height: vw(80);
+                position: absolute;
+                right: vw(32);
+                bottom: vw(0);
+                color: #9f7962;
+                font-size: vw(32);
+
+                .language {
+                    padding-right: vw(20);
+                }
+
+                .icon-gengduo {
+                    font-size: vw(36);
+                }
+            }
+        }
+    }
+
+    /* 主要内容区 */
+    .wrapper {
+        .scroller {
+            .container {
+                .i-main {
+                    background: rgb(244, 244, 244);
+
+                    .floor1 {
+                        width: 100%;
+                        height: vw(600);
+
+                        img {
+                            width: 100%;
+                            height: vw(600);
+                        }
+                    }
+
+                    .gary-hr {
+                        width: 100%;
+                        height: vw(20);
+                        background: #f4f4f4;
+                    }
+
+                    .floor2 {
+                        width: vw(710);
+                        height: vw(332);
+                        margin: auto;
+
+                        img {
+                            width: vw(710);
+                            height: vw(332);
+                        }
+                    }
+
+                    .floor3 {
+                        background: white;
+                        width: vw(710);
+                        margin: auto;
+
+                        img {
+                            width: vw(710);
+                            height: vw(290);
+                            margin: auto;
+                        }
+
+                        .experience {
+                            width: vw(710);
+                            height: vw(216);
+                            margin-top: vw(44);
+                            text-align: center;
+
+                            .p1 {
+                                height: vw(36);
+                                font-size: vw(36);
+                                line-height: vw(36);
+                                margin-bottom: vw(26);
+                                color: #222;
+                            }
+
+                            .p2 {
+                                color: #222;
+                                font-size: vw(24);
+                                height: vw(24);
+                                line-height: vw(24);
+                                margin-bottom: vw(38);
+                            }
+
+                            .p3 {
+                                width: vw(192);
+                                height: vw(60);
+                                font-size: vw(30);
+                                border: vw(1) solid #a57a68;
+                                margin: auto;
+                                text-align: center;
+                                line-height: vw(60);
+                                color: #a57a68;
+                            }
+                        }
+                    }
+
+                    .floor4 {
+                        width: 100%;
+                        height: vw(834);
+                        position: relative;
+
+                        .bg-img {
+                            width: 100%;
+                            height: vw(516);
+                        }
+
+                        .uniqueness {
+                            width: vw(710);
+                            height: vw(358);
+                            background: white;
+                            margin: auto;
+                            position: absolute;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            top: vw(470);
+
+                            ul {
+                                li {
+                                    float: left;
+                                    width: vw(236);
+                                    height: vw(372);
+
+                                    img {
+                                        width: vw(236);
+                                        height: vw(372);
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .floor5 {
+                        width: 100%;
+
+                        ul {
+                            li {
+                                img {
+                                    width: 100%;
+                                    height: vw(340);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
