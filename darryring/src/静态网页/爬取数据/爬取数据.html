@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /* 明星 */
+        var starListCon = document.querySelector(".starListCon").querySelectorAll('li')
+        var arr = [];
+        for (var i = 0, len = starListCon.length; i < len; i++) {
+            var o = {}
+            o.id = i + 1;
+            o.img = starListCon[i].querySelector('img').src
+            o.title = starListCon[i].querySelector('h5').innerText
+            o.detail = starListCon[i].querySelector('p').innerText
+            arr.push(o)
+        }
+        var res = JSON.stringify(arr)
+        console.log(res)
+    </script>
+</body>
+
+</html>

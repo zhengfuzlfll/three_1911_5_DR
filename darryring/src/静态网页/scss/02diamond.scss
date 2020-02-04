@@ -18,8 +18,10 @@ body {
             width: 100%;
             height: vw(80);
             // background: url(../images/logo2.png) no-repeat;
+            /* 背景图 */
             background: #fff url(../images/logo2.png) no-repeat 50%;
             background-size: auto 72%;
+
             position: relative;
             line-height: vw(80);
 
@@ -29,7 +31,6 @@ body {
                 position: absolute;
                 left: vw(32);
                 bottom: 0;
-
                 color: #9b745c;
 
                 .icon-pingfangxinxi {
@@ -189,6 +190,143 @@ body {
                                 }
                             }
                         }
+                    }
+
+                    .floor6 {
+                        .explore {
+                            width: vw(710);
+                            height: vw(86);
+                            margin: auto;
+                            margin-bottom: vw(42);
+                            text-align: center;
+                            position: relative;
+                            // background: white;
+
+                            .explore-dr {
+                                width: vw(119);
+                                height: vw(86);
+                                padding: 0 vw(24);
+                                margin: auto;
+                                font-size: vw(28);
+                                line-height: vw(86);
+                                position: absolute;
+                                left: 50%;
+                                top: 50%;
+                                transform: translate(-50%, -50%);
+                                background: rgb(244, 244, 244);
+                                z-index: 2;
+                            }
+
+                            .line {
+                                position: absolute;
+                                z-index: 1;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                // margin-left: -2.8rem;
+                                width: vw(420);
+                                height: 0;
+                                line-height: 0;
+                                font-size: 0;
+                                border-bottom: .02667rem solid #222;
+                                border-bottom: vw(1) solid #222;
+                            }
+                        }
+
+                        .explore-list {
+                            ul {
+                                li {
+                                    width: vw(710);
+                                    height: vw(590);
+                                    margin: auto;
+
+                                    img {
+                                        width: vw(710);
+                                        height: vw(590);
+                                    }
+                                }
+
+                                li:nth-child(1) {
+                                    margin-bottom: vw(58);
+                                }
+
+                                li:nth-child(1) {
+                                    margin-bottom: vw(28);
+                                }
+                            }
+                        }
+                    }
+
+                    .floor7 {
+                        width: vw(710);
+                        margin: auto;
+
+
+                        .wedding {
+                            height: vw(28);
+                            font-size: vw(28);
+                            text-align: center;
+                            margin-bottom: vw(58);
+                            margin-top: vw(28);
+                        }
+
+                        img {
+                            width: vw(710);
+                            height: vw(770);
+                            margin-bottom: vw(28);
+                        }
+                    }
+
+                    .floor8 {
+                        width: vw(710);
+                        margin: auto;
+                        background: rgb(244, 244, 244);
+
+                        .recommend {
+
+                            height: vw(28);
+                            font-size: vw(28);
+                            text-align: center;
+                            margin-bottom: vw(58);
+                            margin-top: vw(28);
+                        }
+
+                        ul {
+                            width: vw(710);
+                            margin: auto;
+                            height: vw(356);
+
+                            li {
+                                width: vw(340);
+                                height: vw(356);
+                                float: left;
+                                font-size: vw(30);
+
+                                img {
+                                    width: vw(340);
+                                    height: vw(300);
+                                    margin-bottom: vw(28);
+                                }
+
+                                p {
+                                    width: vw(340);
+                                    text-align: center;
+                                }
+                            }
+
+                            li:nth-child(2) {
+                                float: right;
+                            }
+                        }
+                    }
+
+                    .ICP-info {
+                        width: 100%;
+                        height: vw(80);
+                        font-size: vw(24);
+                        line-height: vw(80);
+                        text-align: center;
+                        color: #ccc;
                     }
                 }
             }
