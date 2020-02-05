@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+@function vw($px) {
+    @return ($px/750)*100vw;
+}
+
+#cart {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+
+    /* 头部 */
+    .title-top {
+        width: 100%;
+        height: vw(78);
+        border-bottom: vw(1) solid #ebedf0;
+        background: white;
+
+        .title {
+            width: vw(680);
+            height: vw(78);
+            margin: auto;
+
+            // background: red;
+            text-align: center;
+            line-height: vw(78);
+
+            .left {
+                float: left;
+
+                .icon-fanhui {
+                    width: vw(32);
+                    height: vw(80);
+                    font-size: vw(30);
+                }
+            }
+
+            .middle {
+                float: left;
+                width: vw(450);
+                height: vw(80);
+                // margin: 0 vw(150);
+            }
+
+            .right {
+                float: left;
+                width: vw(180);
+                height: vw(80);
+                color: #a57a68;
+
+                .span1 {
+                    display: block;
+                    float: left;
+                    width: vw(56);
+                    height: vw(80);
+                    padding: 0 vw(20);
+                    font-size: vw(24);
+
+                }
+
+                .icon-gengduo {
+                    float: left;
+                    width: vw(44);
+                    height: vw(80);
+                    font-size: vw(30);
+                }
+            }
+        }
+    }
+
+    /* 进度条 */
+    .progress-bar {
+        width: 100%;
+        height: vw(206);
+        background: white;
+
+
+        ul {
+            width: 100%;
+            height: vw(206);
+
+            li {
+                width: vw(250);
+                height: vw(90);
+                margin-top: vw(55);
+                float: left;
+                text-align: center;
+                font-size: vw(26);
+                color: #888;
+                position: relative;
+
+                .num {
+                    width: vw(44);
+                    height: vw(44);
+                    line-height: vw(44);
+                    text-align: center;
+                    border-radius: 50%;
+                    color: white;
+                    background: #ccc;
+                    margin: auto;
+                    margin: 0 vw(103) vw(16) vw(104);
+                    // position: absolute;
+                    // left: 50%;
+                    // transform: translateX(-50%);
+                }
+
+                .line {
+                    width: vw(250);
+                    // width: vw(124);
+                    border-bottom: vw(1) dashed red;
+                    position: absolute;
+                    // left: 50%;
+                    // transform: translateX(-50%);
+                    // top: 50%;
+                    // transform: translate(-50%, -50%);
+                    margin-top: vw(20);
+                    // width: vw(50%);
+                }
+            }
+
+            .end {
+                color: #a57a68;
+
+                .num {
+                    background: #a57a68;
+
+                }
+
+                .line {
+                    border-color: #a57a68;
+                }
+            }
+
+            li:nth-child(1) {
+                .line {
+                    width: vw(125);
+                    position: absolute;
+                    left: 50%;
+                }
+            }
+        }
+    }
+
+    /*购物车空 */
+    .cart-empty {
+        width: vw(710);
+        height: vw(440);
+        padding: vw(180) vw(20);
+        background-color: #f4f4f4;
+        text-align: center;
+
+        .diamond {
+            width: vw(710);
+            height: vw(110);
+            margin-bottom: vw(32);
+
+            line-height: vw(110);
+
+            .icon-zuanshi {
+                font-size: vw(120);
+                color: #ccc;
+            }
+        }
+
+        .no-shop {
+            width: vw(710);
+            height: vw(42);
+            font-size: vw(30);
+            line-height: vw(42);
+        }
+
+        .btn-box {
+            margin-top: vw(72);
+            color: #bf967c;
+
+            .login {
+                width: vw(314);
+                height: vw(80);
+                border: vw(1) solid #bf967c;
+                margin: 0 vw(196);
+                line-height: vw(80);
+                text-align: center;
+            }
+
+            .guang {
+                width: vw(128);
+                height: vw(32);
+                margin: auto;
+                margin-top: vw(45);
+                line-height: vw(32);
+
+            }
+        }
+    }
+}
