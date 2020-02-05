@@ -6,11 +6,46 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "691453",
+      "name": "钻石",
+      "font_class": "zuanshi",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "2794286",
+      "name": "点赞",
+      "font_class": "dianzan",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "5874644",
+      "name": "礼盒",
+      "font_class": "lihe",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "7253440",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
       "icon_id": "7677470",
       "name": "打叉",
       "font_class": "dacha",
       "unicode": "e75b",
       "unicode_decimal": 59227
+    },
+    {
+      "icon_id": "8341463",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
     },
     {
       "icon_id": "9094872",
@@ -32,6 +67,13 @@
       "font_class": "fanhui",
       "unicode": "e600",
       "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10835065",
+      "name": "更多",
+      "font_class": "gengduo1",
+      "unicode": "e665",
+      "unicode_decimal": 58981
     }
   ]
 }

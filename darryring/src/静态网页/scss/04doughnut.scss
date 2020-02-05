@@ -1,0 +1,186 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+@function vw($px) {
+    @return ($px/750)*100vw;
+}
+
+#doughnuts {
+    width: 100%;
+
+    /* 头部 */
+    .title {
+        width: 100%;
+        height: vw(84);
+        background-color: yellow;
+        border-bottom: vw(1) solid #ddd;
+        background: #fff;
+
+        .title-list {
+            width: 100%;
+            height: vw(84);
+
+
+
+            li {
+                float: left;
+                flex: 1;
+                width: vw(250);
+                height: vw(84);
+                line-height: vw(84);
+                text-align: center;
+                font-size: vw(30);
+            }
+
+            .cur {
+                color: #a57a68;
+                border-bottom: vw(1) solid #a57a68;
+            }
+        }
+    }
+
+    /* 主要内容 */
+    .doughnuts-list {
+        width: 100%;
+        background: rgb(240, 240, 240);
+
+        .list-all {
+            width: 100%;
+
+            .list {
+                width: vw(610);
+                min-height: vw(748);
+                padding-left: vw(116);
+                padding-right: vw(25);
+                // background-color: yellow;
+                margin-bottom: vw(12);
+                position: relative;
+                background: white;
+
+                .head-portrait {
+                    position: absolute;
+                    left: vw(25);
+                    top: vw(36);
+                    width: vw(70);
+                    height: vw(70);
+
+                    img {
+                        width: vw(70);
+                        height: vw(70);
+                    }
+                }
+
+                .content-main {
+                    width: vw(610);
+                    min-height: vw(748);
+                    // border-bottom: vw(1) solid #ccc;
+
+                    .title2 {
+                        width: vw(610);
+                        height: vw(48);
+                        line-height: vw(48);
+                        // margin-right: vw(70);
+                        margin-bottom: vw(20);
+
+                        .span1 {
+                            display: inline-block;
+                            width: vw(530);
+                            height: vw(48);
+                            font-size: vw(24);
+                            margin-right: vw(20);
+
+                        }
+
+                        .icon-gengduo1 {
+                            display: inline-block;
+                            width: vw(50);
+                            // height: vw(48);
+                            font-size: vw(40);
+                            text-align: right;
+                        }
+                    }
+
+                    .time {
+                        height: vw(24);
+                        line-height: vw(24);
+                        font-size: vw(24);
+                        color: #a0a0a0;
+                        margin-bottom: vw(14);
+                    }
+
+                    .detail {
+                        width: vw(610);
+                        font-size: vw(30);
+
+                        .show-close {
+                            color: #c67c59;
+                            margin: vw(20) 0;
+                        }
+
+
+                    }
+
+                    .image {
+                        min-height: vw(196);
+                        width: vw(610);
+                        // margin-bottom: vw(20);
+
+                        .image-list {
+
+                            li {
+                                width: vw(194);
+                                height: vw(196);
+                                padding-left: vw(6);
+                                margin-bottom: vw(6);
+                                float: left;
+
+                                img {
+                                    width: vw(194);
+                                    height: vw(196);
+                                }
+                            }
+
+                        }
+                    }
+                }
+
+                .bottom-num {
+                    width: vw(610);
+                    height: vw(82);
+                    border-top: vw(1) solid #ccc;
+                    margin-top: vw(36);
+
+                    ul {
+                        width: vw(610);
+                        height: vw(82);
+
+                        li {
+                            width: vw(204);
+                            height: vw(82);
+                            line-height: vw(82);
+                            font-size: vw(30);
+
+                            .iconfont {
+                                margin-right: vw(10);
+                                font-size: vw(36);
+                            }
+                        }
+
+                        li:nth-child(1) {
+                            float: left;
+                        }
+
+                        li:nth-child(2) {
+                            float: right;
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

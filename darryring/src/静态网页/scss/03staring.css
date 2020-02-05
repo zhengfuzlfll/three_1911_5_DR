@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html,
 body {
   width: 100%;
@@ -6,6 +7,7 @@ body {
 
 #star {
   width: 100%;
+  /* 右边导航 */
 }
 
 #star .title-all {
@@ -120,4 +122,12 @@ body {
   line-height: 3.46667vw;
   font-size: 3.2vw;
   margin-top: 2.66667vw;
+}
+
+#star .rightNavWrapper img {
+  width: 12vw;
+  height: 12vw;
+  position: fixed;
+  right: 0;
+  bottom: 20vw;
 }

@@ -137,4 +137,15 @@ body {
             }
         }
     }
+
+    /* 右边导航 */
+    .rightNavWrapper {
+        img {
+            width: vw(90);
+            height: vw(90);
+            position: fixed;
+            right: 0;
+            bottom: vw(150);
+        }
+    }
 }
