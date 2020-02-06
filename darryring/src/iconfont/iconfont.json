@@ -27,13 +27,6 @@
       "unicode_decimal": 58937
     },
     {
-      "icon_id": "5922304",
-      "name": "新浪",
-      "font_class": "icon-xinlang",
-      "unicode": "e643",
-      "unicode_decimal": 58947
-    },
-    {
       "icon_id": "6788584",
       "name": "下一步",
       "font_class": "xiayibu",
@@ -76,25 +69,11 @@
       "unicode_decimal": 59004
     },
     {
-      "icon_id": "9816264",
-      "name": "qq",
-      "font_class": "qq",
-      "unicode": "e603",
-      "unicode_decimal": 58883
-    },
-    {
       "icon_id": "10427742",
       "name": "设 置",
       "font_class": "shezhi",
       "unicode": "e6c1",
       "unicode_decimal": 59073
-    },
-    {
-      "icon_id": "10662679",
-      "name": "对",
-      "font_class": "dui",
-      "unicode": "e736",
-      "unicode_decimal": 59190
     },
     {
       "icon_id": "10678350",
@@ -104,32 +83,11 @@
       "unicode_decimal": 58880
     },
     {
-      "icon_id": "10806407",
-      "name": "支付宝",
-      "font_class": "zhifubao",
-      "unicode": "e6f6",
-      "unicode_decimal": 59126
-    },
-    {
       "icon_id": "10835065",
       "name": "更多",
       "font_class": "gengduo1",
       "unicode": "e665",
       "unicode_decimal": 58981
-    },
-    {
-      "icon_id": "11379248",
-      "name": "向下",
-      "font_class": "down",
-      "unicode": "e604",
-      "unicode_decimal": 58884
-    },
-    {
-      "icon_id": "12082681",
-      "name": "向上",
-      "font_class": "up",
-      "unicode": "e605",
-      "unicode_decimal": 58885
     }
   ]
 }
