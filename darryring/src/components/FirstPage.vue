@@ -1,4 +1,6 @@
-<template></template>
+<template>
+  <dir>FirstPage</dir>
+</template>
 
 <script>
 export default {};

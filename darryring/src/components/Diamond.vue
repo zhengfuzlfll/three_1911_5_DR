@@ -1,5 +1,5 @@
 <template>
-  <h2>Dimond</h2>
+  <div>Dimond</div>
 </template>
 
 <script>

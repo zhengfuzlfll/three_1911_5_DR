@@ -20,6 +20,13 @@
       "unicode_decimal": 58881
     },
     {
+      "icon_id": "3759616",
+      "name": "钻石",
+      "font_class": "zuanshi1",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
       "icon_id": "5874644",
       "name": "礼盒",
       "font_class": "lihe",
@@ -32,6 +39,13 @@
       "font_class": "icon-xinlang",
       "unicode": "e643",
       "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "6185354",
+      "name": "明星",
+      "font_class": "mingxing",
+      "unicode": "e607",
+      "unicode_decimal": 58887
     },
     {
       "icon_id": "6788584",
@@ -48,11 +62,25 @@
       "unicode_decimal": 58893
     },
     {
+      "icon_id": "7595583",
+      "name": "甜甜圈 拷贝",
+      "font_class": "tiantianquankaobei",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
       "icon_id": "7677470",
       "name": "打叉",
       "font_class": "dacha",
       "unicode": "e75b",
       "unicode_decimal": 59227
+    },
+    {
+      "icon_id": "7960901",
+      "name": "我 的",
+      "font_class": "my-select",
+      "unicode": "e606",
+      "unicode_decimal": 58886
     },
     {
       "icon_id": "8341463",
@@ -81,6 +109,13 @@
       "font_class": "qq",
       "unicode": "e603",
       "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "10015954",
+      "name": "购物袋",
+      "font_class": "bag",
+      "unicode": "e71f",
+      "unicode_decimal": 59167
     },
     {
       "icon_id": "10427742",
