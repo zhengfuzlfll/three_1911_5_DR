@@ -3,15 +3,16 @@
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
     <!-- <HomePage></HomePage> -->
-    <Dimond></Dimond>
+    <!-- <Dimond></Dimond>
     <Star></Star>
     <Quan></Quan>
     <Cart></Cart>
-    <My></My>
+    <My></My>-->
+    <router-view></router-view>
     <ul class="nav-list">
-      <li v-for="(item) in tags" :key="item.name">
+      <li v-for="item in tags" :key="item.name" @click="tab(item.path)">
         <span id="icon" :class="item.icon" class="iconfont"></span>
-        <span>{{item.text}}</span>
+        <span class="span2">{{item.text}}</span>
       </li>
       <!-- <li>
         <img src="./images/icon_tab1H.png" alt />
@@ -38,11 +39,11 @@
 // import HomePage from "./components/HomePage.vue";
 
 // import FirstPage from "./components/FirstPage.vue";
-import Dimond from "./components/Diamond.vue";
-import Star from "./components/Star.vue";
-import Quan from "./components/Quan.vue";
-import Cart from "./components/Cart.vue";
-import My from "./components/My.vue";
+// import Dimond from "./components/Diamond.vue";
+// import Star from "./components/Star.vue";
+// import Quan from "./components/Quan.vue";
+// import Cart from "./components/Cart.vue";
+// import My from "./components/My.vue";
 
 /* 去除默认样式 */
 import "./css/base.css";
@@ -54,20 +55,20 @@ export default {
   components: {
     // HelloWorld
     // HomePage
-    Dimond,
-    Star,
-    Quan,
-    Cart,
-    My
+    // Dimond,
+    // Star,
+    // Quan,
+    // Cart,
+    // My
   },
   data: function() {
     return {
       tags: [
         {
-          name: "dimond",
-          path: "/dimond",
+          name: "diamond",
+          path: "/diamond",
           text: "求婚钻戒",
-          component: "Dimond",
+          component: "Diamond",
           icon: "icon-zuanshi1"
         },
         {
@@ -79,27 +80,35 @@ export default {
         },
         {
           name: "quan",
-          path: "/dimond",
+          path: "/quan",
           text: "甜甜圈",
           component: "Quan",
           icon: "icon-tiantianquankaobei"
         },
         {
           name: "cart",
-          path: "/dimond",
+          path: "/cart",
           text: "购物车",
           component: "Cart",
           icon: "icon-bag"
         },
         {
           name: "my",
-          path: "/dimond",
+          path: "/my",
           text: "我的",
           component: "My",
           icon: "icon-my-select"
         }
-      ]
+      ],
+      currentPath: "/dimond"
     };
+  },
+  methods: {
+    tab(path) {
+      window.console.log(path);
+      this.currentPath = path;
+      this.$router.push({ path });
+    }
   }
 };
 </script>
@@ -162,9 +171,9 @@ body {
       font-size: vw(50);
     }
     .icon-zuanshi1 {
-      font-size: vw(50);
+      font-size: vw(100);
     }
-    span {
+    .span2 {
       // color: #7f7f7f;
       font-size: vw(24);
     }
