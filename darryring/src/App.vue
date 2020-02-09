@@ -149,7 +149,7 @@ body {
   display: flex;
   align-items: center;
   // margin-bottom: vw(95);
-  margin-top: vw(95);
+  // margin-top: vw(95);
   li {
     width: vw(150);
     height: vw(84);
